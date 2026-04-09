@@ -140,7 +140,7 @@ button{cursor:pointer;font-family:'Jost',sans-serif;}
   overflow:hidden;
   z-index:1;
 }
-.hero-img img, .hero-img video{
+.hero-img img{
   width:100%;height:100%;object-fit:cover;
   display:block;
 }
@@ -590,19 +590,9 @@ button{cursor:pointer;font-family:'Jost',sans-serif;}
 
     <!-- FOTOGRAFIJA desno, iza gornjeg dijela kartice -->
     <div class="hero-img">
-      <!-- Fallback slika ako video ne radi -->
-      <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1600&q=90"
-           alt="Luksuzna vila s bazenom i pogledom na Jadransko more Hrvatska"
-           style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;"
+      <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1600&q=90"
+           alt="Luksuzna vila s infinity bazenom i pogledom na Jadransko more u zalasku sunca Hrvatska"
            loading="eager" width="1600" height="900" id="heroImg">
-      <video
-        id="heroVideo"
-        autoplay muted loop playsinline
-        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;"
-        poster="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1600&q=90">
-        <source src="https://videos.pexels.com/video-files/3635378/3635378-uhd_2560_1440_25fps.mp4" type="video/mp4">
-        <source src="https://videos.pexels.com/video-files/2169880/2169880-hd_1920_1080_25fps.mp4" type="video/mp4">
-      </video>
       <div class="hero-img-overlay"></div>
     </div>
 
